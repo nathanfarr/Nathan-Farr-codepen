@@ -1,0 +1,211 @@
+body {
+    margin: 0px;
+    font-size: 1em;
+    background: black;
+    font-family: "Lato", "Lucida Grande", "Lucida Sans Unicode", Tahoma, Sans-Serif;
+}
+
+.nav-styles {
+    height: 65px;
+    width: 100%;
+    background-color: black;
+    margin: 0px;
+    display: flex;
+}
+.nav-styles > .img {
+    flex-grow: 0.05;
+    padding: 5px 0px 0px 15px;
+}
+.nav-styles > .img img {
+    width: 150px;
+    height: auto;
+}
+.color-links {
+    color: white;
+    border-bottom: 3px solid transparent;
+    width: 375px;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 17px;
+    line-height: 1.5;
+    padding-left: 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+}
+.link {
+    border-bottom: 3px solid transparent;  
+}
+.color-links > .blue-link:hover {
+    border-bottom: 3px solid #0ebeff;   
+}
+.color-links > .yellow-link:hover {
+    border-bottom: 3px solid #ffdd40;   
+}
+.color-links > .green-link:hover {
+    border-bottom: 3px solid #47cf73;
+}
+.color-links > .purple-link:hover {
+    border-bottom: 3px solid #ae63e4;
+}
+.color-links > .grey-link:hover {
+    border-bottom: 3px solid #555;
+    color: white;
+}
+.color-links > .grey-link {
+    color: #acacac;
+}
+.explore {
+    color: #f4e17f;
+    font-size: 0.8em;
+    padding-top: 10px;
+    padding-left: 35px;
+}
+.explorers-links {
+    flex-grow: 2;
+    display: grid;
+    justify-content: left;
+
+}
+.icon {
+  color: #acacac;
+}
+.btn-btn button{
+    background-color: #343436;
+    line-height: 1.2;
+    font-size: 1em;
+    color: white;
+    padding: 10px 25px;
+    outline: none;
+    transition: 0.3s;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    font-family: "Lato", "Lucida Grande", "Lucida Sans Unicode", Tahoma, Sans-Serif; 
+}
+.btn-btn {
+    padding-top: 10px;
+    flex-grow: 0.05;
+}
+.btn-btn button:hover {
+    background: #4d4d50;
+}
+.icon2 {
+    color: #47cf73;
+    display: inline;
+}
+.icon3 {
+    display: inline;
+    font-size: 1.5em;
+    color: #999;
+    padding: 0px 15px;
+}
+.middle {
+    background: radial-gradient(circle farthest-corner at 200px 0, #414141, #000);
+    display: flex;
+    justify-content: space-between;
+}
+.left-column {
+   padding: 45px 0 45px 45px;
+}
+ 
+.p > .p1 {
+    font-size: 3em;
+    color: white;
+    line-height: 1.1;
+    width: 686px;
+    font-family: "Lato", "Lucida Grande", "Lucida Sans Unicode", Tahoma, Sans-Serif;
+    font-weight: 300;
+    
+}
+.p >.p2 {
+    color: #b3b3b3;
+    font-size: 1.8em;
+    width: 685px;
+    height: 80px;
+    font-family: "Lato", "Lucida Grande", "Lucida Sans Unicode", Tahoma, Sans-Serif;
+    font-weight: 300;
+    line-height: 40px;
+    margin: 0 0 1em 0;
+    padding-top: 20px;
+}
+.btn-1 {
+    margin: 0 0 1em 0;
+   display: flex;
+   justify-content: left;
+}
+.btn-2 button {
+    font-size: 2em;
+    padding: 10px 16px;
+    background: #47cf73;
+    border: none;
+    border-radius: 3px;
+    color: black;
+    margin: 0 10px 0 0;
+    border: 3px solid transparent;
+}
+.btn-3 button {
+    font-size: 2em;
+    padding: 10px 16px;
+    background: #1e1e1e;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    margin: 0 10px 0 0;
+    border: 3px solid transparent; 
+}
+.right-column {
+    justify-content: right;
+    
+}
+.img1 img {
+    width: auto;
+    height: 469px;
+    
+}
+.text {
+    color: white;
+    padding-top: 20px;
+    padding-left: 45px;
+    font-family: "Lato", "Lucida Grande", "Lucida Sans Unicode", Tahoma, Sans-Serif;
+}
+.blue {
+    color: #0ebeff;
+}
+.boxes {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    font-family: "Lato", "Lucida Grande", "Lucida Sans Unicode", Tahoma, Sans-Serif;
+    text-align: center;
+}
+.box-1 {
+    background: #373737;
+    border: 1px solid #676767;
+    color: white;
+    padding: 0.5rem 1rem;
+    flex-grow: 1;
+}
+.box-2 {
+    background: #373737;
+    border: 1px solid #676767;
+    color: white;
+    padding: 0.5rem 1rem;
+    flex-grow: 1;
+}
+.box-3 {
+    background: #373737;
+    border: 1px solid #676767;
+    color: white;
+    padding: 0.5rem 1rem;
+    flex-grow: 1;
+}
+.box-4 {
+    background: #373737;
+    border: 1px solid #676767;
+    color: white;
+    padding: 0.5rem 1rem;
+    flex-grow: 1;
+}
+.bigger {
+    font-size: 1.4em;
+    font-weight: 900;
+}

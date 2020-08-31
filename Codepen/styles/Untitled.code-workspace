@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../Fries"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Codepen"
+	}
+}
